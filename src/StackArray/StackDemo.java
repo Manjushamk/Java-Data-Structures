@@ -3,7 +3,6 @@ package StackArray;
 public class StackDemo {
     public static void main(String[] args) {
         Stack<Integer> myStack = new Stack<>();
-
         System.out.println(myStack.peek());
         myStack.push(5);
         myStack.push(7);

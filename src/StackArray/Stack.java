@@ -12,6 +12,7 @@ public class Stack<T>{
         if (size == this.stack.length){
             resize(2*this.stack.length);
         }
+
         this.stack[size++] = data;
     }
 
