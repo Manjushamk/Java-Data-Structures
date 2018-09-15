@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.HashMap;
+
 public class LinkedListDemo{
     public static void main(String[] args) {
         List<Integer> list = new LinkedList<Integer>();
